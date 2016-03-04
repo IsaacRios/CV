@@ -88,7 +88,10 @@ background-repeat: no-repeat;
 .blanco{
 	color:white;
 }
-
+.strech{
+  margin-left: 250px;
+  margin-right: 250px;
+}
 .caja1, .caja2, .caja3{
 margin-top:7px;
 padding-top: 5px;
