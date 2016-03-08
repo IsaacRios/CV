@@ -4,6 +4,14 @@ background-color: #333;
 img {
 	max-width:100%;
 }
+.trans{
+color: white;
+
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+}
 .quitar-float{
 	float: none;
 }
@@ -119,81 +127,3 @@ border-style: ridge;
       width: 70%;
       margin: auto;
   }
-
- @import url(https://fonts.googleapis.com/css?family=Jura);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Jura', sans-serif;
-}
-
-
-
-body .wrapper .skills {
-  width: 700px;
-  margin: 0 auto;
-}
-body .wrapper .skills .contents {
-  width: 600px;
-  height: 60px;
-  margin: 10px auto;
-  clear: both;
-}
-body .wrapper .skills .contents .title {
-  width: 180px;
-  margin-left: 50px;
-  line-height: 60px;
-  float: left;
-}
-body .wrapper .skills .contents .meter {
-  width: 200px;
-  padding-top: 15px;
-  margin-right: 60px;
-  float: right;
-  position: relative;
-}
-body .wrapper .skills .contents .meter .block {
-  display: inline-block;
-  position: absolute;
-}
-body .wrapper .skills .contents .meter .lv1 {
-  width: 30px;
-  height: 20px;
-  background-color: #74CC4B;
-  bottom: -30px;
-  left: 0px;
-  transform: skew(-40deg);
-}
-body .wrapper .skills .contents .meter .lv2 {
-  width: 30px;
-  height: 20px;
-  background-color: #74CC4B;
-  bottom: -30px;
-  left: 32px;
-  transform: skew(-40deg);
-}
-body .wrapper .skills .contents .meter .lv3 {
-  width: 30px;
-  height: 23px;
-  background-color: #E05928;
-  bottom: -30px;
-  left: 66px;
-  transform: skew(-40deg);
-}
-body .wrapper .skills .contents .meter .lv4 {
-  width: 30px;
-  height: 26px;
-  background-color: #E05928;
-  bottom: -30px;
-  left: 100px;
-  transform: skew(-40deg);
-}
-body .wrapper .skills .contents .meter .lv5 {
-  width: 30px;
-  height: 30px;
-  background-color: #d6270b;
-  bottom: -30px;
-  left: 135px;
-  transform: skew(-40deg);
-}
