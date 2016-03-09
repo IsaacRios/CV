@@ -6,6 +6,8 @@ img {
 }
 .trans{
 color: white;
+list-style: none;
+min-width: 130px;
 
 background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -18,7 +20,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 .pacifico{
 	font-family: 'Pacifico', cursive;
 	}
-
+.ittem{
+	min-height: 450px;
+}
 
 #section1{
 padding-top:100px;
@@ -40,13 +44,17 @@ height: 900px;
 background-image: url("fondo4.jpg");
 min-width: 500px;
 }
+.rowstresh{
+	margin-left: 15%;
+	margin-right: 15%;
+}
 
 #section3{
 margin-left: 40px;
 margin-right: 40px;
 padding-top:50px;
 height: 700px;
-min-width: 400px;
+min-width: 500px;
 background-image: url("slider53.jpg");
 
 background-repeat: no-repeat;
