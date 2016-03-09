@@ -4,22 +4,15 @@ background-color: #333;
 img {
 	max-width:100%;
 }
-.trans{
-color: white;
-list-style: none;
-min-width: 130px;
-
-background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
-}
 .quitar-float{
 	float: none;
 }
 .pacifico{
 	font-family: 'Pacifico', cursive;
 	}
+.hammer{
+	font-family: 'Hammersmith One', sans-serif;
+}
 .ittem{
 	min-height: 450px;
 }
@@ -32,16 +25,24 @@ min-width: 500px;
 }
 .seccion1{
 	background-image: url("upfeathers.png");	
-	height: 630px;
-	min-height: 600px;
-	min-width: 400px;
+	height: 950px;
+	min-height: 850px;
+	min-width: 500px;
 	margin: 0;
 	padding: 0;
+}
+
+.trans{
+color: #c1cccc;
+list-style: none;
+min-width: 130px;
+font-family: 'Hammersmith One', sans-serif;
+background-color: #252526;
 }
 #section2{
 padding-top:50px;
 height: 900px;
-background-image: url("fondo4.jpg");
+background-color: 252526;
 min-width: 500px;
 }
 .rowstresh{
@@ -56,6 +57,7 @@ padding-top:50px;
 height: 700px;
 min-width: 500px;
 background-image: url("slider53.jpg");
+back
 
 background-repeat: no-repeat;
 }
@@ -99,11 +101,26 @@ background-repeat: no-repeat;
 	-webkit-animation-delay:5s;
 	-moz-animation-delay:5s;
 }
+.retraso-6{
+	animation-delay:6s;
+	-webkit-animation-delay:6s;
+	-moz-animation-delay:6s;
+}
 .slateg{
 	color:slategray;
 }
 .blanco{
 	color:white;
+}
+.ctitle{
+margin-left:15%;
+margin-right: 15%;
+padding-top: 10px;
+padding-bottom: 10px;
+ border-style: groove;
+ border-color: #009dff;
+ color: #009dff;
+ background-color: #073655;
 }
 .negro{
 	color: black;
