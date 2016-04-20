@@ -1,0 +1,43 @@
+
+
+.container1 {
+  
+  padding: 10px;
+  background-image: url("fondogif.gif");
+background-position: center right;
+background-repeat: no-repeat;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 470px;
+  display: flex;
+  flex-flow: column wrap; /* Shorthand – you could use ‘flex-direction: column’ and ‘flex-wrap: wrap’ instead */
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.items {
+  background-color: #161925;
+  height: 170px;
+  width: 30%;
+  margin: 1%;
+  padding: 5px;
+  opacity:0.9;
+}
+.items:nth-child(2) {
+  background-color: #8EA8C3;
+  height: 140px;
+}
+
+.items:nth-child(3) {
+  height: 145px;
+   background-color: #2364aa;
+}
+
+.items:nth-child(4) {
+  background-color: #406E8E;
+  height: 265px;
+}
+.items:nth-child(5) {
+  background-color: #23395B;
+  height: 230px;
+}
