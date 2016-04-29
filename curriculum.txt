@@ -4,7 +4,6 @@ Servidor localhost: Xamp, AppServ
 Manejo de consola: OSX, Linux.
 NodeJS > ExpressJS(framework)
 
-
 Coming soon:
 SEO, Google analitics, Google adwords
 Ajax, JSon, material design, ecommerce
@@ -78,10 +77,10 @@ Base de datos.
 MySQL
 MongoDB
 
-Metodología:
+MetodologÃ­a:
 Scrum
 
-Organización:
+OrganizaciÃ³n:
 Jira
 Slack
 Trello 
