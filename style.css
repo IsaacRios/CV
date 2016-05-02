@@ -21,7 +21,8 @@ img {
 }
 
 #section1{
-padding-top:100px;
+padding-top:75px;
+padding-bottom: 20px;
 margin-left: 5%;
 margin-right: 5%;
 min-width: 400px;
@@ -35,7 +36,7 @@ min-width: 400px;
 }
 @media only screen and (max-width: 767px){
 .seccion1{
-	height: 950px;
+	height: 995px;
 }
 }
 /* Portrait tablets and small desktops */
