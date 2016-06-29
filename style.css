@@ -19,7 +19,6 @@ img {
 .separate{ 
 	padding-left: 20px; 
 }
-
 #section1{
 padding-top:75px;
 padding-bottom: 20px;
@@ -156,7 +155,6 @@ border-color: white;
 font-style: italic;
 letter-spacing: 2px;
 }
-
 .caja1{
 border: 3px;
 border-style: dashed;
@@ -174,11 +172,7 @@ border-style: ridge;
       width: 100%;
       margin: auto;
   }
-
-
-
 .container1 {
-  
   padding: 10px;
   background-image: url("fondogif.gif");
   background-position: center center;
@@ -191,10 +185,9 @@ border-style: ridge;
   justify-content: flex-start;
   align-items: flex-start;
 }
-
 .items {
   background-color: #161925;
-  height: 170px;
+  height: 180px;
   width: 30%;
   margin: 1%;
   padding: 5px;
