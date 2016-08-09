@@ -10,7 +10,7 @@ Ajax, JSon, material design, ecommerce
 Polymer, flexbox
 
 tools:
-codepicnic
+CodePicnic
 stack overflow
 
 FrontEnd:
