@@ -148,8 +148,8 @@ border-style: ridge;
   background-repeat: no-repeat;
   display: flex;
   flex-flow: column wrap; /* Shorthand – you could use ‘flex-direction: column’ and ‘flex-wrap: wrap’ instead */
-      -webkit-justify-content: center;
-    justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   height: 490px;
   justify-content: flex-start;
   margin: 0 auto;
@@ -187,5 +187,6 @@ color: #c1cccc;
 font-family: 'Hammersmith One', sans-serif;
 list-style: none;
 min-width: 135px;
-margin-left: -40px;
+max-width: 350px;
+margin-left: -35px;
 }
