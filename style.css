@@ -36,12 +36,19 @@ background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 375px;
-padding-top: 5%;
-padding-bottom: 3%;
+padding-top: 0;
+padding-bottom: 1%;
 }
 #section2{
 background-color: #36465d;
-padding-top:40px;
+}
+#section2a{
+background-attachment: fixed;
+background-image: url("rubyor.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 200px;
 }
 #section3{
 height: 650px;
@@ -96,6 +103,9 @@ padding-top: 10px;
 	-moz-animation-delay:6s;
 	-webkit-animation-delay:6s;
 	animation-delay:6s;
+}
+.skillimg{
+	opacity: 0.5;
 }
 .slateg{
 	color:slategray;
