@@ -29,17 +29,21 @@ img {
 padding-bottom: 20px;
 padding-top:75px;
 }
-#section2{
-background-color: #36465d;
-height: 700px;
-padding-top:50px;
-}
-#section3{
+#section1a{
 background-attachment: fixed;
 background-image: url("slider53.jpg");
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 375px;
+padding-top: 5%;
+padding-bottom: 3%;
+}
+#section2{
+background-color: #36465d;
+padding-top:40px;
+}
+#section3{
 height: 650px;
 padding-bottom: 10px;
 padding-top: 10px;
@@ -49,7 +53,7 @@ padding-top: 10px;
 	background-repeat: repeat;
 	height:300px; 
 	min-height: 350px; 
-	padding-top:30px; padding-left:20%; padding-right: 20%; padding-bottom: 50px; 
+	padding-top:30px; padding-left:10%; padding-right: 10%; padding-bottom: 50px; 
 }
 @media (min-width: 768px) and (max-width: 991px){
 	#footer{
